@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
+__author__ = "Your Name"
+
 ###############################################################################
 #
-print("\nExercise 18.1\n")
+# Exercise 18.1
 #
-# Question 1
+#
 # 1. For the following program, draw a UML class diagram that shows these
 # classes and the relationships among them.
 #
@@ -28,12 +30,12 @@ print("\nExercise 18.1\n")
 # ping = Ping(pong)
 # pong.add_ping(ping)
 #
-# Feel free to just describe this as actually drawing it in text would be hard
 #
+
 """
 |> is a
 ^ has a
-PingPongParent — -|> Ping
+PingPongParent —- |> Ping
                \/     ^
-                — |> Pong
-"""`
+               -— |> Pong
+"""

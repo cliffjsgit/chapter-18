@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 
+__author__ = "Your Name"
+
 ###############################################################################
 #
-print("\nExercise 18.3\n")
+# Exercise 18.3
+#
 #
 # The following are the possible hands in poker, in increasing order of value
 # and decreasing order of probability:
@@ -22,7 +25,6 @@ print("\nExercise 18.3\n")
 # The goal of these exercises is to estimate the probability of drawing these 
 # various hands.
 #
-# Question 1
 # 1. Download the following files from http://thinkpython2.com/code/
 #       Card.py      : A complete version of the Card, Deck and Hand classes in 
 #                      this chapter.
